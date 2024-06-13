@@ -6,12 +6,9 @@
         gap: 4.2rem;
     }
     
-    
     }
 
-
 @media (max-width: 990px){
-
 
 
     #description1-title {
@@ -117,6 +114,11 @@
 
     }
 
+    #about-info {
+    
+        grid-template-columns: repeat(auto-fit, minmax(min(440px, 100%), 1fr));
+    }
+
     #about-info #img-perfil{
 
         width: 100%;
@@ -127,6 +129,7 @@
         width: 100%;
     
     }
+
 }
 
 
@@ -137,6 +140,93 @@
         margin-top: 7.3rem;
     }
 
+    #about-info p {
+
+        font-size: 1rem;
+    }
+
+    #projects-info {
+
+        gap: 1rem;
+    }
+    
+
+    .card-project {
+        
+        transform: scale(0.8);
+        
+    }
+
+
+    #contact .media-info h3{
+
+        font-size: 0.8rem;
+        width: 100%;
+        text-wrap: wrap;
+    
+    }
+
 }
 
+@media (max-width: 350px) {
+
+    #projects-info {
+        grid-template-columns: repeat(auto-fit, minmax(min(265px), max-content));
+    }
+
+}
+
+
+
+@media (max-width: 320px) {
+    
+
+    #description1-title {
+        font-size: 1.7rem;
+        max-width: 250px;
+    
+    }
+
+    #description1-title::after {
+
+        width: 65px;
+    
+    }
+
+    #description2 {
+        padding-right: 2rem;
+    
+    }
+    
+    #description2-title {
+        font-size: 2.8rem;
+        max-width: 330px;
+    
+    }
+
+    #description2-title::after {
+
+        margin-left: 7.8rem;
+    }
+
+    #description2-info {
+        font-size: 1.1rem;
+        
+    }
+
+    #about-info {
+    
+        grid-template-columns: repeat(auto-fit, minmax(min(220px), 1fr));
+    }
+
+
+    #contact .media-info .break{
+
+        display: block;
+    
+    }
+
+
+
+}
 
