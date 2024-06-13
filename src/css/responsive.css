@@ -1,0 +1,127 @@
+@media (max-width: 1220px){
+
+    #projects-info {
+        grid-template-columns: repeat(auto-fit, minmax(min(250px), max-content));
+        justify-content: center;
+        gap: 4.2rem;
+    }
+    
+    
+    }
+
+
+@media (max-width: 990px){
+
+
+
+    #description1-title {
+        font-size: 2rem;
+        max-width: 250px;
+    
+    }
+    
+    #description2-title {
+        font-size: 3.3rem;
+        max-width: 330px;
+    
+    }
+
+    #description2 {
+        padding-right: 0rem;
+    
+    }
+
+    #description2-title::after {
+
+        margin-left: 10rem;
+    }
+
+}
+
+
+@media (max-width: 940px) {
+
+    .fa-bars, .fa-xmark {
+
+        visibility: visible;
+
+    }
+
+    #menu {
+
+        max-width: 400px;
+        height: 100%;
+        right: -26rem;
+        background: linear-gradient(to bottom, #041b3de5, #000000f1);
+        transition: ease .3s;
+    }
+
+    #menu.show {
+
+        right: 0;
+        
+    }
+
+
+    #menu.active-menu{
+    
+        background: linear-gradient(to bottom, #041b3de5, #0000009a);
+    
+    }
+
+    #itens {
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+        padding: 1.3rem 1.3rem 1.3rem 1.3rem;
+    }
+
+  
+    #itens .nav-link {
+
+        position: absolute;
+        left: 42%;
+        
+    }
+    #itens .nav-link::after {
+
+        position: relative;
+        
+    }
+}
+
+
+@media (max-width: 750px){
+
+    #banner-info {
+        top: 8rem;
+
+    }
+
+    #description {
+        gap: 2rem;
+        align-items: center;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        margin-left: 11%;
+    }
+
+    #description1 {
+        padding-left: 0rem;
+        padding-right: 5rem;
+
+    }
+
+    #about-info #img-perfil{
+
+        width: 100%;
+    }
+
+    #contact .media-info {
+
+        width: 100%;
+    
+    }
+}
+
+
