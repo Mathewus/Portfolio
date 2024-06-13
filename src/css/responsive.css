@@ -36,6 +36,11 @@
         margin-left: 10rem;
     }
 
+    #about-info {
+        gap: 0.3rem;
+        
+    }
+
 }
 
 
