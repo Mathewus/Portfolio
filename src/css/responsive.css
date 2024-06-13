@@ -130,3 +130,13 @@
 }
 
 
+@media (max-width: 425px) {
+
+
+    #about {
+        margin-top: 7.3rem;
+    }
+
+}
+
+
