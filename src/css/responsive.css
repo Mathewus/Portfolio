@@ -151,13 +151,6 @@
     }
     
 
-    .card-project {
-        
-        transform: scale(0.8);
-        
-    }
-
-
     #contact .media-info h3{
 
         font-size: 0.8rem;
@@ -168,6 +161,15 @@
 
 }
 
+@media (max-width: 390px) {
+
+    .card-project {
+        
+        transform: scale(0.8);
+        
+    }
+}
+
 @media (max-width: 350px) {
 
     #projects-info {
@@ -176,10 +178,7 @@
 
 }
 
-
-
 @media (max-width: 320px) {
-    
 
     #description1-title {
         font-size: 1.7rem;

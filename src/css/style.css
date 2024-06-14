@@ -19,8 +19,14 @@ a {
 
 body {
     overflow-x: hidden;
+    background: linear-gradient(to bottom, #000000, #000608, #011420, #011420, #011420);
 }
 
+#principal {
+
+    background: linear-gradient(to bottom, #000000, #000608, #011420, #011420, #011420);
+    width: 100%;
+}
 
 #menu {
 
@@ -221,12 +227,6 @@ body {
 #description2-info {
     font-size: 1.2rem;
     max-width: 300px;
-}
-
-#principal {
-
-    background: linear-gradient(to bottom, #000000, #000608, #011420, #011420, #011420);
-    width: 100%;
 }
 
 .section-title {
