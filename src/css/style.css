@@ -233,8 +233,8 @@ body {
 
     color: #fff;
     text-align: center;
-    padding: 3.5rem 0rem 2.5rem;
-    font-size: 1.6rem;
+    padding: 3.7rem 0rem 2.5rem;
+    font-size: 1.9rem;
 }
 
 #about-info {
@@ -266,14 +266,14 @@ body {
 
 
 .section {
-    padding-top: 1rem;
-    margin-top: 5.8rem;
+    padding-top: 3rem;
+    margin-top: 5.4rem;
 }
 
 .fade-element {
     opacity: 0;
     transform: translateY(7px);
-    transition: opacity 1s ease-out, transform 1s ease-out;
+    transition: opacity 1s ease-in-out, transform 1s ease-in-out;
 }
 
 .fade-in {
@@ -404,6 +404,7 @@ body {
 
 #contact {
     margin-top: 6rem;
+    padding-top: 0.5rem;
     width: 100%;
     background-color: #032237;
     border-radius: 60px 60px 0px 0px;

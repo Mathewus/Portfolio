@@ -52,6 +52,15 @@
 
     }
 
+    #about-info p {
+
+        font-size: 1.2rem;
+        padding: 2rem 0rem 0rem;
+        max-width: 515px;
+    }
+    
+
+
 }
 
 @media (max-width: 940px) {
@@ -126,12 +135,12 @@
 @media (max-width: 750px) {
 
     #banner-info {
-        top: 8rem;
+        top: 7.2rem;
 
     }
 
     #description {
-        gap: 2rem;
+        gap: 2.3rem;
         align-items: center;
         flex-direction: column-reverse;
         flex-wrap: wrap;
@@ -224,7 +233,7 @@
 
     #description1-title::after {
 
-        width: 65px;
+        width: 60px;
 
     }
 
@@ -237,6 +246,7 @@
     #description2-title::after {
 
         margin-left: 7.8rem;
+        width: 85px;
     }
 
     #description2-info {
