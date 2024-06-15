@@ -2,6 +2,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     const links = document.querySelectorAll("#itens .nav-link");
     const menu = document.getElementById('menu');
+    const submenu = document.getElementById('bgsub-menu');
     const fadeElements = document.querySelectorAll('.fade-element');
     const navbar = document.querySelector('.fa-bars');
 
@@ -22,8 +23,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
         if (window.pageYOffset > 50) {
             menu.classList.add('active-menu');
+            submenu.classList.add('active-menu');
         } else {
             menu.classList.remove('active-menu');
+            submenu.classList.remove('active-menu');
         }
 
 

@@ -32,8 +32,24 @@ body {
 
     width: 100%;
     position: fixed;
-    z-index: 1;
+    z-index: 3;
     background: linear-gradient(to bottom, #000000ea, #0000000c);
+
+}
+
+
+#bgsub-menu {
+    width: 100%;
+    height: 68px;
+    position: fixed;
+    z-index: 2;
+    visibility: hidden;
+    background: linear-gradient(to bottom, #0000002f, #0000000c);
+}
+
+#bgsub-menu.active-menu {
+
+    background: linear-gradient(to bottom, #000000ea, #000000b4);
 
 }
 
@@ -42,8 +58,9 @@ body {
     color: #fff;
     font-size: 2rem;
     position: fixed;
+    top: -3px;
     right: 0;
-    z-index: 2;
+    z-index: 3;
     cursor: pointer;
     padding: 1.3rem;
     visibility: hidden;
@@ -243,7 +260,7 @@ body {
     padding: 0 30px 0;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(min(440px), max-content));
-    gap: 1rem;
+    gap: 1.5rem;
     justify-content: center;
     justify-items: center;
     color: #F6F6F6;
@@ -261,7 +278,7 @@ body {
 
     font-size: 1.2rem;
     padding: 2rem 0rem 0rem;
-    max-width: 550px;
+    max-width: 565px;
 }
 
 

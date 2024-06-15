@@ -72,6 +72,12 @@
 
     }
 
+    #bgsub-menu {
+        
+        visibility: visible;
+    }
+    
+
     #menu {
 
         max-width: 400px;
