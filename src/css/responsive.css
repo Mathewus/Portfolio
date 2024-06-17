@@ -150,12 +150,12 @@
 @media (max-width: 750px) {
 
     #banner-info {
-        top: 7.2rem;
+        top: 7.1rem;
 
     }
 
     #description {
-        gap: 2.3rem;
+        gap: 2rem;
         align-items: center;
         flex-direction: column-reverse;
         flex-wrap: wrap;
@@ -165,7 +165,20 @@
     #description1 {
         padding-left: 0rem;
         padding-right: 5rem;
+        gap: 10px;
 
+    }
+
+    #description1-title {
+
+        line-height: 2.5rem;
+    }
+
+    
+    #description2 {
+
+        gap: 10px;
+    
     }
 
     #about-info {
