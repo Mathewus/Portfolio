@@ -89,6 +89,11 @@ body {
     transition: ease .2s;
 }
 
+#itens .icons {
+
+    display: none;
+}
+
 #itens .nav-link:hover {
 
     color: #fff;
@@ -128,6 +133,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     height: 550px;
+    margin-bottom: 6rem;
 
 }
 
@@ -243,7 +249,13 @@ body {
 
 #description2-info {
     font-size: 1.2rem;
+    line-height: 1.55rem;
     max-width: 300px;
+}
+
+.section {
+    padding-top: 3rem;
+    margin-top: 5.1rem;
 }
 
 .section-title {
@@ -260,10 +272,9 @@ body {
     padding: 0 30px 0;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(min(440px), max-content));
-    gap: 1.5rem;
+    gap: 2rem;
     justify-content: center;
     justify-items: center;
-    color: #F6F6F6;
 }
 
 #about-info #img-perfil {
@@ -276,21 +287,18 @@ body {
 
 #about-info p {
 
-    font-size: 1.2rem;
+    font-size: 1.12rem;
+    line-height: 1.74rem;
     padding: 2rem 0rem 0rem;
-    max-width: 565px;
+    max-width: 505px;
+    color: #F6F6F6;
 }
 
-
-.section {
-    padding-top: 3rem;
-    margin-top: 5.4rem;
-}
 
 .fade-element {
     opacity: 0;
     transform: translateY(7px);
-    transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+    transition: opacity .72s ease-in-out, transform .72s ease-in-out;
 }
 
 .fade-in {
@@ -319,7 +327,7 @@ body {
 #skills-info .skill-detail {
 
     text-align: center;
-    color: #F6EEEE;
+    color: #F6F6F6;
 }
 
 
@@ -346,6 +354,11 @@ body {
     gap: 5.4rem;
 }
 
+.project-title {
+    font-size: 1.09rem;
+    color: #f8f5f5;
+}
+
 
 .card-project {
     width: 120%;
@@ -360,6 +373,13 @@ body {
     flex-direction: column;
     gap: 1.2rem;
     transition: ease .2s;
+}
+
+.card-project p {
+
+    color: #F6F6F6;
+    line-height: 1.6rem;
+
 }
 
 .card-project:hover {

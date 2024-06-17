@@ -1,5 +1,6 @@
 
 document.addEventListener("DOMContentLoaded", function () {
+    
     const links = document.querySelectorAll("#itens .nav-link");
     const menu = document.getElementById('menu');
     const submenu = document.getElementById('bgsub-menu');
