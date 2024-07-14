@@ -56,8 +56,17 @@
 
         padding: 2rem 0rem 0rem;
     }
-    
 
+
+
+}
+
+@media (max-width: 970px) {
+
+    #skills-info {
+
+        gap: 2.5rem;
+    }
 
 }
 
@@ -77,10 +86,10 @@
     }
 
     #bgsub-menu {
-        
+
         visibility: visible;
     }
-    
+
 
     #menu {
 
@@ -110,7 +119,7 @@
         gap: 26px;
         margin-top: 4rem;
         padding: 1.3rem 1.3rem 1.3rem 1.3rem;
-        
+
     }
 
 
@@ -174,11 +183,11 @@
         line-height: 2.5rem;
     }
 
-    
+
     #description2 {
 
         gap: 10px;
-    
+
     }
 
     #about-info {
@@ -199,8 +208,26 @@
 
 }
 
+@media (max-width: 500px) {
+
+
+    #about-info {
+        
+        padding: 0 20px 0;
+       
+    }
+}
+
+
 
 @media (max-width: 470px) {
+
+    .section-title {
+
+        font-size: 1.7rem;
+
+    }
+
 
     .card-project {
 
@@ -222,12 +249,6 @@
 
         margin-top: 4rem;
     }
-
-    .section-title {
-
-        font-size: 1.7rem;
-    }
-
 
     #about {
         margin-top: 7.3rem;
@@ -305,7 +326,13 @@
         padding-right: 2rem;
 
     }
-    
+
+    #about-info {
+        
+        padding: 0 15px 0;
+       
+    }
+
     #projects-info {
         grid-template-columns: repeat(auto-fit, minmax(min(285px), max-content));
     }
@@ -318,6 +345,7 @@
     #about-info {
 
         grid-template-columns: repeat(auto-fit, minmax(min(220px), 1fr));
+
     }
 
 
