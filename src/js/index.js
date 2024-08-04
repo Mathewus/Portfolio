@@ -1,13 +1,14 @@
 
 document.addEventListener("DOMContentLoaded", function () {
-    
-    const links = document.querySelectorAll("#itens .nav-link");
+
+    const links = document.querySelectorAll(".nav-link");
     const menu = document.getElementById('menu');
     const submenu = document.getElementById('bgsub-menu');
     const fadeElements = document.querySelectorAll('.fade-element');
     const navbar = document.querySelector('.fa-bars');
 
     function setActiveLink() {
+
         let current = "";
         document.querySelectorAll("section").forEach(section => {
             if (pageYOffset >= section.offsetTop - section.clientHeight / 3) {
@@ -20,6 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     function handleScroll() {
+        
         setActiveLink();
 
         if (window.pageYOffset > 50) {
@@ -57,6 +59,5 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
     });
-
 
 });

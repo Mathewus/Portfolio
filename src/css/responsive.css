@@ -7,7 +7,6 @@
     }
 
     .card-project {
-
         transform: scale(0.95);
 
     }
@@ -64,7 +63,6 @@
 @media (max-width: 970px) {
 
     #skills-info {
-
         gap: 2.5rem;
     }
 
@@ -74,25 +72,21 @@
 
     .fa-bars,
     .fa-xmark {
-
         visibility: visible;
 
     }
 
     #itens .icons {
-
         display: block;
         padding-bottom: 7px;
     }
 
     #bgsub-menu {
-
         visibility: visible;
     }
 
 
     #menu {
-
         max-width: 400px;
         height: 100%;
         right: -26rem;
@@ -101,14 +95,12 @@
     }
 
     #menu.show {
-
         right: 0;
 
     }
 
 
     #menu.active-menu {
-
         background: linear-gradient(to bottom, #041b3de5, #0000009a);
 
     }
@@ -124,7 +116,6 @@
 
 
     #itens .nav-link {
-
         color: #cecacac4;
         font-size: 1.1rem;
         transition: ease .2s;
@@ -134,7 +125,6 @@
     }
 
     #itens .nav-link::after {
-
         position: relative;
 
     }
@@ -148,7 +138,6 @@
     }
 
     .card-project {
-
         transform: scale(1);
 
     }
@@ -179,29 +168,24 @@
     }
 
     #description1-title {
-
         line-height: 2.5rem;
     }
 
 
     #description2 {
-
         gap: 10px;
 
     }
 
     #about-info {
-
         grid-template-columns: repeat(auto-fit, minmax(min(440px, 100%), 1fr));
     }
 
     #about-info #img-perfil {
-
         width: 100%;
     }
 
     #contact .media-info {
-
         width: 100%;
 
     }
@@ -211,8 +195,7 @@
 @media (max-width: 500px) {
 
 
-    #about-info {
-        
+    #about-info {        
         padding: 0 20px 0;
        
     }
@@ -223,20 +206,17 @@
 @media (max-width: 470px) {
 
     .section-title {
-
         font-size: 1.7rem;
 
     }
 
 
     .card-project {
-
         transform: scale(0.9);
 
     }
 
     #projects-info {
-
         gap: 1rem;
     }
 }
@@ -246,7 +226,6 @@
 
 
     .section {
-
         margin-top: 4rem;
     }
 
@@ -255,13 +234,11 @@
     }
 
     #about-info p {
-
         font-size: 1rem;
     }
 
 
     #contact .media-info h3 {
-
         font-size: 0.8rem;
         width: 100%;
         text-wrap: wrap;
@@ -274,19 +251,16 @@
 
 
     .card-project {
-
         transform: scale(0.8);
 
     }
 
     #project-title {
-
         padding-bottom: 2.2rem;
 
     }
 
     #projects-info {
-
         gap: 0;
     }
 }
@@ -300,7 +274,6 @@
     }
 
     #description1-title::after {
-
         width: 60px;
 
     }
@@ -312,7 +285,6 @@
     }
 
     #description2-title::after {
-
         margin-left: 7.8rem;
         width: 85px;
     }
@@ -343,14 +315,12 @@
 
 
     #about-info {
-
         grid-template-columns: repeat(auto-fit, minmax(min(220px), 1fr));
 
     }
 
 
     #contact .media-info .break {
-
         display: block;
 
     }
@@ -358,7 +328,6 @@
     @media (max-width: 300px) {
 
         .card-project {
-
             transform: scale(0.73);
 
         }
