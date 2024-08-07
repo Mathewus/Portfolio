@@ -55,11 +55,10 @@ body {
     color: #fff;
     font-size: 2rem;
     position: fixed;
-    top: -3px;
-    right: 0;
+    top: 18px;
+    right: 20px;
     z-index: 3;
     cursor: pointer;
-    padding: 1.3rem;
     visibility: hidden;
 }
 
@@ -238,7 +237,7 @@ body {
 
 #description2-info {
     font-size: 1.2rem;
-    line-height: 1.55rem;
+    line-height: 1.60rem;
     max-width: 300px;
 }
 

@@ -1,5 +1,10 @@
 @media (max-width: 1220px) {
 
+    #itens {
+        padding: 1.3rem 3.2rem 1.3rem 1.3rem;
+
+    }
+
     #projects-info {
         grid-template-columns: repeat(auto-fit, minmax(min(250px), max-content));
         justify-content: center;
@@ -31,7 +36,7 @@
     }
 
     #description2-title {
-        font-size: 3.3rem;
+        font-size: 3.2rem;
         max-width: 330px;
 
     }
@@ -168,7 +173,7 @@
     }
 
     #description1-title {
-        line-height: 2.5rem;
+        line-height: 2.7rem;
     }
 
 
@@ -195,9 +200,9 @@
 @media (max-width: 500px) {
 
 
-    #about-info {        
+    #about-info {
         padding: 0 20px 0;
-       
+
     }
 }
 
@@ -224,6 +229,9 @@
 
 @media (max-width: 425px) {
 
+    #description1-title {
+        font-size: 1.9rem;
+    }
 
     .section {
         margin-top: 4rem;
@@ -250,6 +258,11 @@
 @media (max-width: 390px) {
 
 
+    #description2-title {
+        font-size: 3.1rem;
+
+    }
+
     .card-project {
         transform: scale(0.8);
 
@@ -268,7 +281,7 @@
 @media (max-width: 350px) {
 
     #description1-title {
-        font-size: 1.7rem;
+        font-size: 1.8rem;
         max-width: 250px;
 
     }
@@ -300,9 +313,9 @@
     }
 
     #about-info {
-        
+
         padding: 0 15px 0;
-       
+
     }
 
     #projects-info {
