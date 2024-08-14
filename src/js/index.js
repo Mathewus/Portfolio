@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     links.forEach(link => {
-        link.addEventListener("click", function () {
+        link.addEventListener("click",  () => {
             links.forEach(l => l.classList.remove("active"));
             this.classList.add("active");
         });
