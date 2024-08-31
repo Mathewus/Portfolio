@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const fadeElements = document.querySelectorAll('.fade-element');
     const navbar = document.querySelector('.fa-bars');
 
+
     function setActiveLink() {
 
         let current = "";
@@ -14,14 +15,16 @@ document.addEventListener("DOMContentLoaded", function () {
             if (pageYOffset >= section.offsetTop - section.clientHeight / 3) {
                 current = section.id;
             }
+
         });
+
         links.forEach(link => {
             link.classList.toggle("active", link.getAttribute("href") === `#${current}`);
         });
     }
 
     function handleScroll() {
-        
+
         setActiveLink();
 
         if (window.pageYOffset > 50) {
@@ -42,7 +45,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     links.forEach(link => {
-        link.addEventListener("click",  () => {
+        link.addEventListener("click", () => {
             links.forEach(l => l.classList.remove("active"));
             this.classList.add("active");
         });
@@ -60,4 +63,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
     });
 
+
 });
+
+
+
