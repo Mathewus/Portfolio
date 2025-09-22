@@ -23,9 +23,11 @@ body {
 }
 
 #principal {
-    background: linear-gradient(to bottom, #000000, #000608, #011420, #011420, #011420);
+    background: linear-gradient(to bottom, #000000, #000000, #011420, #011420, #011420);
     width: 100%;
 }
+
+
 
 #menu {
     width: 100%;
@@ -134,10 +136,11 @@ body {
 }
 
 #banner-gradient2 {
-    background: linear-gradient(to bottom, #2c2c2c3f, #1f1e1e00, #000000);
+    background: linear-gradient(to bottom, #2c2c2c3f, #00000038, #000000);
     position: absolute;
     width: 100%;
     height: 550px;
+    
 }
 
 #banner-info {
