@@ -286,7 +286,7 @@ body {
 .fade-element {
     opacity: 0;
     transform: translateY(7px);
-    transition: opacity .72s ease-in-out, transform .72s ease-in-out;
+    transition: opacity 1.7s ease-in-out, transform 1.7s ease-in-out;
 }
 
 .fade-in {
